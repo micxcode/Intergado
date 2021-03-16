@@ -6,8 +6,9 @@ import com.interview.Intergado.service.FarmService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class FarmController implements FarmResource {
 
     private final FarmService farmService;
